@@ -9,9 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sarikha.mealbridge"
     },
     "android": {
+      "package": "com.sarikha.mealbridge",
+      "config": {
+        "googleMaps": {
+          "apiKey": "PASTE_YOUR_API_KEY_HERE"
+        }
+      },
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -37,6 +44,14 @@
           "dark": {
             "backgroundColor": "#000000"
           }
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow MealBridge to save QR codes to your gallery.",
+          "savePhotosPermission": "Allow MealBridge to save QR codes to your gallery.",
+          "isAccessMediaLocationEnabled": true
         }
       ]
     ],
