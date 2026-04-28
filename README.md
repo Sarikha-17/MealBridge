@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+MealBridge: Bridging Surplus to ServiceMealBridge is a hyper-local food redistribution platform built to eliminate urban food waste and combat hunger.
+By connecting restaurants (Merchants) and individuals (Donors) with a verified volunteer network, we transform surplus food into community impact.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Core Features
 
-## Get started
+Smart Classification: Real-time differentiation between individual "Donations" and high-volume "Merchant" contributions.
+Critical Priority Logic: Integrated with Gemini AI to automatically flag large-scale merchant donations for professional volunteer pickup.
+Secure QR Handshake: A blockchain-ready verification system that confirms food delivery before rewards are issued.
+Gamified Impact (Karma): A live leaderboard system where users earn "Karma Points" for every rescue.
+Environmental Tracking: Automated calculation of environmental savings—averaging 9kg of $CO_{2}$ equivalents prevented per meal rescue.
 
-1. Install dependencies
+🛠️ Tech Stack
 
-   ```bash
-   npm install
-   ```
+Frontend: React Native, 
+ExpoBackend: Firebase Firestore (Real-time snapshots)
 
-2. Start the app
+AI Engine: Gemini 1.5 Flash (Safety checks & Priority sorting)
 
-   ```bash
-   npx expo start
-   ```
+Navigation: React Native Maps (Live pickup tracking)
 
-In the output, you'll find options to open the app in a
+State Management: React Hooks & Firebase Listeners
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🌍 Sustainability Impact (SDG Alignment)
+SDG 2: Zero Hunger – Direct redistribution of surplus nutritional meals to those in need.
+SDG 13: Climate Action – Reducing methane emissions from landfills.
+The Math: 1 rescue = 9kg $CO_{2}$ saved.
+This is equivalent to: 
+   Driving 36km in a petrol car.
+   Charging a smartphone 1,100 times.
+   6 months of $CO_{2}$ absorption by a mature tree.
+   
+📸 Demo Walkthrough
+Video Demo: [Link to your Video]
+Prototype Experience: [Link to your Expo/MVP]
