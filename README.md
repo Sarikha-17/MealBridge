@@ -30,5 +30,5 @@ This is equivalent to:
    6 months of $CO_{2}$ absorption by a mature tree.
    
 📸 Demo Walkthrough
-Video Demo: [Link to your Video]
-Prototype Experience: [Link to your Expo/MVP]
+Video Demo: https://drive.google.com/file/d/1okLrrLgzHBn1O70MsFDGAnpR-eLBlDg2/view?usp=drive_link
+Prototype Experience: https://github.com/Sarikha-17/MealBridge/
